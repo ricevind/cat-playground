@@ -1,13 +1,13 @@
-package dev.karo.playground;
+package dev.kwasniaki.catplayground;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CatApplication {
+public class CatPlaygroundApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CatApplication.class, args);
+		SpringApplication.run(CatPlaygroundApplication.class, args);
 	}
 
 }
