@@ -1,34 +1,37 @@
 openapi: "3.1.1"
 info:
-  title: Kotki API
-  version: "1.0"
-servers:
-  - url: https://api.kotki.com/v1
+  title: cat-playground
+  version: "0.1.0"
 paths:
-  /ping:
+  /echo:
     get:
+      tags:
+        - dev
+      operationId: echo
+      summary: Echo the message
+      description: Basic echo endpoint for testing
       parameters:
         - name: message
           in: query
-          required: false
+          required: true
           schema:
             type: string
-            default: "Pong"
+            default: "Hello, World!"
       responses:
         "200":
           description: OK
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/ping"
+                $ref: "#/components/schemas/Echo"
 components:
   schemas:
-    ping:
+    Echo:
       type: object
       required:
         - message
       properties:
         message:
           type: string
-          description: The message to return
-          example: "Pong"
+          description: The message to echo back
+          example: "Hello World!"
