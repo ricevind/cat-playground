@@ -1,0 +1,27 @@
+{
+  "name": "kotki-playground",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run check && vite build",
+    "preview": "vite preview",
+    "check": "tsc --noEmit"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Kotki Playground",
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "not dead"
+  ],
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vite": "^7.0.5"
+  },
+  "packageManager": "npm@11.4.2+sha512.f90c1ec8b207b625d6edb6693aef23dacb39c38e4217fe8c46a973f119cab392ac0de23fe3f07e583188dae9fd9108b3845ad6f525b598742bd060ebad60bff3"
+}
