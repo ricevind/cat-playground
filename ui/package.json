@@ -13,7 +13,7 @@
     "lint:fix": "eslint . --fix",
     "lint:format": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\" ",
     "lint": "npm run lint:format && npm run lint:fix ",
-    "prepare": "npx simple-git-hooks"
+    "x-prepare": "npx simple-git-hooks"
   },
   "author": "",
   "license": "ISC",
