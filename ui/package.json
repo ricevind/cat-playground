@@ -1,5 +1,5 @@
 {
-  "name": "kotki-playground",
+  "name": "cats-playground",
   "version": "1.0.0",
   "type": "module",
   "exports": {
@@ -17,7 +17,7 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "Kotki Playground",
+  "description": "Cats Playground",
   "browserslist": [
     "last 1 version",
     "> 1%",
